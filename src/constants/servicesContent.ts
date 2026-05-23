@@ -4,10 +4,10 @@ import type { ServiceDetail } from '@/types'
 export const SERVICES_HERO = {
   breadcrumb: 'Our services',
   eyebrow: 'What we offer',
-  title: 'Complete truckload solutions',
+  title: 'Complete Logistic Solutions',
   subtitle: 'End-to-end logistics support for USA & Canada',
   description:
-    'From 3PL freight brokerage to round-the-clock dispatch and customer support, Austech delivers reliable back-office operations so your fleet stays moving across North America.',
+    'From 3PL freight brokerage to round-the-clock dispatch and Customer Support / BPO Services, Austech delivers reliable back-office operations so your fleet stays moving across North America.',
 } as const
 
 export const SERVICES_INTRO = {
@@ -130,14 +130,14 @@ export const SERVICE_DETAILS: ServiceDetail[] = [
   },
   {
     slug: 'customer-support',
-    title: 'Customer Support',
+    title: 'Customer Support / BPO Services',
     tagline: 'Always-on client communication.',
     description:
-      '24/7 customer support team ready to assist with inquiries, tracking updates, and operational coordination.',
+      '24/7 Customer Support / BPO Services team ready to assist with inquiries, tracking updates, and operational coordination.',
     icon: 'support',
     image: galleryImage('pexels-matreding-11666903.jpg'),
     overview:
-      'Our customer support specialists handle client inquiries, shipment updates, POD requests, and billing coordination. We represent your brand professionally with quick, accurate responses around the clock.',
+      'Our Customer Support / BPO Services specialists handle client inquiries, shipment updates, POD requests, and billing coordination. We represent your brand professionally with quick, accurate responses around the clock.',
     features: [
       '24/7 inquiry and ticket handling',
       'Shipment tracking and status updates',

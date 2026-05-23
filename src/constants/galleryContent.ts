@@ -31,7 +31,7 @@ export const GALLERY_CATEGORIES: { id: GalleryCategory; label: string }[] = [
 
 const TEAM_FILE_META: Record<string, { title: string; category: 'team' }> = {
   '24:7_operations_support.png': { title: '24/7 operations support', category: 'team' },
-  'dedicated_customer_support.png': { title: 'Dedicated customer support', category: 'team' },
+  'dedicated_customer_support.png': { title: 'Dedicated Customer Support / BPO Services', category: 'team' },
   'expericend_despatcher.png': { title: 'Experienced dispatchers', category: 'team' },
   'Real_time_tracking.png': { title: 'Real-time tracking', category: 'team' },
   'file_0000000010c07208be408300491fb3c2.png_202605231021.jpeg': {

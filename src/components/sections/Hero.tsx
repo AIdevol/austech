@@ -30,7 +30,7 @@ export function Hero() {
             </HeroContentItem>
             <HeroContentItem>
               <h1 className="mt-3 text-3xl font-extrabold uppercase leading-[1.05] tracking-tight sm:mt-4 sm:text-5xl lg:text-[3.25rem]">
-                <span className="text-white">Truckload</span>{' '}
+                <span className="text-white">Logistic</span>{' '}
                 <span className="text-gold">Solutions</span>
               </h1>
             </HeroContentItem>

@@ -1,5 +1,6 @@
 import { AboutCta } from '@/components/about/AboutCta'
 import { AboutHero } from '@/components/about/AboutHero'
+import { DirectorMessage } from '@/components/about/DirectorMessage'
 import { AboutStory } from '@/components/about/AboutStory'
 import { AboutTeam } from '@/components/about/AboutTeam'
 import { AboutValues } from '@/components/about/AboutValues'
@@ -10,6 +11,7 @@ export function AboutPage() {
     <>
       <AboutHero />
       <AboutStory />
+      <DirectorMessage />
       <AboutValues />
       <AboutWhyChoose />
       <AboutTeam />

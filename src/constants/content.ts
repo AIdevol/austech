@@ -45,7 +45,7 @@ export const SITE = {
 
 export const HERO = {
   eyebrow: 'Your trusted partner in',
-  title: 'Truckload solutions',
+  title: 'Logistic Solutions',
   subtitle: 'Delivering excellence across USA & Canada from India',
   description:
     'We provide comprehensive 3PL freight brokerage, dispatch services, and OTR solutions — connecting shippers and carriers with reliability, transparency, and 24/7 support across North America.',
@@ -54,7 +54,7 @@ export const HERO = {
 
 export const SERVICES_SECTION = {
   eyebrow: 'Our services',
-  title: 'Complete truckload solutions',
+  title: 'Complete Logistic Solutions',
   description:
     'From freight brokerage to round-the-clock dispatch, Austech delivers end-to-end logistics support tailored for trucking companies operating across USA & Canada.',
 } as const
@@ -91,9 +91,9 @@ export const SERVICES = [
     icon: 'night',
   },
   {
-    title: 'Customer Support',
+    title: 'Customer Support / BPO Services',
     description:
-      '24/7 customer support team ready to assist with inquiries, tracking updates, and operational coordination.',
+      '24/7 Customer Support / BPO Services team ready to assist with inquiries, tracking updates, and operational coordination.',
     icon: 'support',
   },
 ] as const satisfies readonly import('@/types').ServiceItem[]
@@ -103,7 +103,7 @@ export const HOME_ABOUT = {
   title: 'Driving success from India to USA & Canada',
   cta: 'Discover Austech',
   paragraphs: [
-    'Austech Business Solutions is a leading logistics partner headquartered in India, specializing in truckload solutions for the North American market. With a skilled team and advanced technology, we bridge the gap between shippers and carriers across USA & Canada.',
+    'Austech Business Solutions is a leading logistics partner headquartered in India, specializing in Logistic Solutions for the North American market. With a skilled team and advanced technology, we bridge the gap between shippers and carriers across USA & Canada.',
     'Our mission is to deliver reliable, cost-effective, and transparent logistics services that empower trucking companies to grow their business while we handle the back-office operations with excellence.',
   ],
 } as const
@@ -119,7 +119,7 @@ export const WHY_CHOOSE = {
   eyebrow: 'The Austech advantage',
   title: 'Your success is our commitment',
   description:
-    'With years of experience in the logistics industry, Austech delivers reliable truckload solutions backed by a dedicated team, cutting-edge technology, and unwavering commitment to your business growth.',
+    'With years of experience in the logistics industry, Austech delivers reliable Logistic Solutions backed by a dedicated team, cutting-edge technology, and unwavering commitment to your business growth.',
   points: [
     'Skilled & Experienced Professionals',
     'Advanced Tools & Real-time Tracking',
@@ -128,16 +128,16 @@ export const WHY_CHOOSE = {
     'Strict Confidentiality & Data Security',
   ],
   stats: [
-    { value: '50+', label: 'Expert Professionals', icon: 'professionals' },
-    { value: '2000+', label: 'Loads Dispatched', icon: 'loads' },
+    { value: '100+', label: 'Expert Professionals', icon: 'professionals' },
+    { value: '50000+', label: 'Loads Dispatched', icon: 'loads' },
     { value: '98%', label: 'Client Satisfaction', icon: 'satisfaction' },
   ] satisfies WhyStat[],
 }
 
 export const STATS: Stat[] = [
-  { value: '50+', label: 'Expert Professionals', icon: 'professionals' },
-  { value: '2000+', label: 'Loads Dispatched', icon: 'loads' },
-  { value: '150+', label: 'Happy Clients', icon: 'clients' },
+  { value: '100+', label: 'Expert Professionals', icon: 'professionals' },
+  { value: '50000+', label: 'Loads Dispatched', icon: 'loads' },
+  { value: '1100+', label: 'Happy Clients', icon: 'clients' },
   { value: '98%', label: 'Client Satisfaction', icon: 'satisfaction' },
   { value: '24/7', label: 'Support Available', icon: 'support' },
 ]
@@ -193,7 +193,7 @@ export const TESTIMONIALS: Testimonial[] = [
   },
   {
     quote:
-      'From rate confirmations to POD follow-ups, their customer support represents our brand well. Our shippers notice the difference.',
+      'From rate confirmations to POD follow-ups, their Customer Support / BPO Services represents our brand well. Our shippers notice the difference.',
     name: 'Elena V.',
     role: 'Logistics Coordinator, Canada',
     initials: 'EV',

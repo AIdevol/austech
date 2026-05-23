@@ -4,6 +4,11 @@ export const ABOUT_IMAGES = {
   hero: '/img/truck.png',
   office: '/img/truck.png',
   whyChooseTruck: '/assets/img/why-choose-truck.png',
+  director: {
+    portrait: '/assets/img/director_profile.jpeg',
+    /** Drop signature PNG at public/assets/img/director-signature.png */
+    signature: '/assets/img/director-signature.png',
+  },
   team: {
     dispatchers: '/assets/img/expericend_despatcher.png',
     customerSupport: '/assets/img/dedicated_customer_support.png',
@@ -18,7 +23,7 @@ export const ABOUT_HERO = {
   tagline: 'Driving operations. Delivering success.',
   paragraphs: [
     'Austech Business Solutions is a leading truckload and logistics back-office partner — delivering excellence across USA & Canada from India with experienced professionals, advanced technology, and unwavering commitment to your success.',
-    'We help trucking companies streamline dispatch, freight brokerage, and customer support so you can focus on growing your fleet while we handle the operations behind the scenes.',
+    'We help trucking companies streamline dispatch, freight brokerage, and Customer Support / BPO Services so you can focus on growing your fleet while we handle the operations behind the scenes.',
   ],
 } as const
 
@@ -29,6 +34,21 @@ export const ABOUT_STORY = {
     'Founded with a vision to bridge logistics excellence between India and North America, Austech Business Solutions has grown into a trusted partner for businesses seeking reliable truckload, dispatch, and freight brokerage services.',
     'Our team of skilled professionals combines deep industry expertise with cutting-edge technology to deliver cost-effective, transparent, and dependable logistics solutions — helping your business thrive across borders.',
   ],
+} as const
+
+export const DIRECTOR_MESSAGE = {
+  eyebrow: "Director's desk",
+  title: 'Message from the Director’s Desk',
+  paragraphs: [
+    'At Austech Business Solutions, our vision is to build seamless and reliable logistics connections across the USA and Canada through innovation, technology, and operational excellence, supported by a strong offshore delivery model from India.',
+    'What began as a focused initiative has evolved into a trusted logistics partner delivering end-to-end Freight Brokerage, Dispatch Services, and comprehensive logistics solutions for companies across North America. We understand the dynamic challenges of the transportation and supply chain industry, and we are committed to simplifying operations through efficient coordination, back-office excellence, and technology-driven processes.',
+    'Our strength lies in fostering long-term, trusted partnerships. We believe true success is measured not only by operational performance, but also by the confidence, reliability, and consistency we bring to every client relationship.',
+    'With a skilled team, a strong operational foundation, and a customer-centric approach, we continue to strengthen our capabilities across freight brokerage, dispatch management, and integrated logistics support services.',
+    'As we move forward, our commitment remains unwavering — to deliver transparency, efficiency, and measurable value to every partner we serve.',
+  ],
+  name: 'Vishal Goyal',
+  role: 'Director',
+  company: 'Austech Business Solutions Pvt. Ltd.',
 } as const
 
 export const ABOUT_VALUES: ValueItem[] = [
@@ -78,9 +98,9 @@ export const ABOUT_WHY = {
 } as const
 
 export const ABOUT_WHY_STATS: AboutHeroStat[] = [
-  { value: '50+', label: 'Expert Professionals', icon: 'years' },
-  { value: '2000+', label: 'Loads Dispatched', icon: 'loads' },
-  { value: '150+', label: 'Happy Clients', icon: 'clients' },
+  { value: '100+', label: 'Expert Professionals', icon: 'years' },
+  { value: '50000+', label: 'Loads Dispatched', icon: 'loads' },
+  { value: '1100+', label: 'Happy Clients', icon: 'clients' },
   { value: '98%', label: 'Client Satisfaction', icon: 'satisfaction' },
   { value: '24/7', label: 'Support Available', icon: 'support' },
 ]
@@ -97,9 +117,9 @@ export const ABOUT_TEAM = {
       alt: 'Experienced dispatcher with professional headset',
     },
     {
-      title: 'Dedicated customer support',
+      title: 'Dedicated Customer Support / BPO Services',
       image: ABOUT_IMAGES.team.customerSupport,
-      alt: 'Dedicated customer support specialist with headset',
+      alt: 'Dedicated Customer Support / BPO Services specialist with headset',
     },
     {
       title: 'Real-time tracking & monitoring',

@@ -75,7 +75,7 @@ export function getBotReply(input: string): Omit<ChatMessage, 'id' | 'role'> {
 
   if (q.match(/\b(service|3pl|dispatch|otr|drayage|freight|broker)\b/)) {
     return {
-      text: 'We offer 3PL brokerage, dispatch, OTR, drayage, night dispatch, and customer support for USA & Canada operations.',
+      text: 'We offer 3PL brokerage, dispatch, OTR, drayage, night dispatch, and Customer Support / BPO Services for USA & Canada operations.',
       links: [{ label: 'All services', href: '/services' }],
     }
   }
