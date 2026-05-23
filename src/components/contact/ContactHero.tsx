@@ -4,15 +4,15 @@ import { HeroContent, HeroContentItem } from '@/components/animations/HeroConten
 import { HeroMedia } from '@/components/animations/HeroMedia'
 import { Container } from '@/components/ui/Container'
 import { CONTACT_HERO } from '@/constants/contactContent'
-import { IMAGES, VIDEOS } from '@/constants/content'
+import { VIDEOS } from '@/constants/content'
 
 export function ContactHero() {
   return (
     <section className="relative min-h-[420px] overflow-hidden sm:min-h-[480px] lg:min-h-[520px]">
       <HeroMedia
         src={VIDEOS.hero}
-        poster={IMAGES.truck}
         kind="video"
+        preload="auto"
         alt="Semi-truck on highway at dusk"
         objectPosition="object-center"
         overlayClassName="bg-gradient-to-r from-navy/95 via-navy/85 to-navy/55"

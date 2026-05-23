@@ -3,16 +3,15 @@ import { ChevronRight } from 'lucide-react'
 import { HeroContent, HeroContentItem } from '@/components/animations/HeroContent'
 import { HeroMedia } from '@/components/animations/HeroMedia'
 import { Container } from '@/components/ui/Container'
-import { IMAGES, VIDEOS } from '@/constants/content'
 import { GALLERY_HERO, GALLERY_HERO_POSTER } from '@/constants/galleryContent'
+import { VIDEOS } from '@/constants/content'
 
 export function GalleryHero() {
   return (
     <section className="relative min-h-[380px] overflow-hidden sm:min-h-[440px] lg:min-h-[480px]">
       <HeroMedia
-        src={VIDEOS.hero}
-        poster={GALLERY_HERO_POSTER || IMAGES.truck}
-        kind="video"
+        src={GALLERY_HERO_POSTER || VIDEOS.hero.poster}
+        kind="image"
         alt="Semi-truck on Australian highway"
         objectPosition="object-[70%_center]"
         overlayClassName="bg-gradient-to-r from-navy/90 from-0% via-navy/70 via-[45%] to-navy/35 sm:via-navy/60 sm:via-[40%] sm:to-navy/20"

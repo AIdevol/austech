@@ -13,6 +13,7 @@ export function AboutHero() {
         src={VIDEOS.hero}
         poster={ABOUT_IMAGES.hero}
         kind="video"
+        preload="auto"
         alt="Semi-truck on highway at dusk"
         objectPosition="object-center"
         overlayClassName="bg-gradient-to-r from-navy/95 via-navy/85 to-navy/70"

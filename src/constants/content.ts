@@ -17,8 +17,13 @@ export const WHY_CHOOSE_IMAGES = {
   accentBottom: galleryImage('pexels-shuaizhi-tian-485596-20882743.jpg'),
 } as const
 
+/** Optimized hero background (run `npm run optimize:hero-video` to regenerate). */
 export const VIDEOS = {
-  hero: '/assets/video/background_video1.mp4',
+  hero: {
+    mp4: '/videos/bg-video.mp4',
+    webm: '/videos/bg-video.webm',
+    poster: '/videos/bg-video-poster.jpg',
+  },
 } as const
 
 export const SITE = {

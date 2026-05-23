@@ -3,7 +3,7 @@ import { HeroMedia } from '@/components/animations/HeroMedia'
 import { FeatureBar } from '@/components/sections/FeatureBar'
 import { Button } from '@/components/ui/Button'
 import { Container } from '@/components/ui/Container'
-import { HERO, HERO_FEATURES, IMAGES, VIDEOS } from '@/constants/content'
+import { HERO, HERO_FEATURES, VIDEOS } from '@/constants/content'
 
 export function Hero() {
   return (
@@ -11,8 +11,8 @@ export function Hero() {
       <div className="relative min-h-[480px] overflow-hidden sm:min-h-[560px] lg:min-h-[640px]">
         <HeroMedia
           src={VIDEOS.hero}
-          poster={IMAGES.truck}
           kind="video"
+          preload="auto"
           alt="Semi-truck on highway at dusk"
           objectPosition="object-[70%_center] sm:object-[78%_center] lg:object-right"
           overlayClassName="bg-gradient-to-r from-navy/95 from-0% via-navy/80 via-[42%] to-navy/40 sm:via-navy/75 sm:via-[38%] sm:to-transparent sm:via-[52%] sm:to-100%"

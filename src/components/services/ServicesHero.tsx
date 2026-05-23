@@ -4,15 +4,15 @@ import { HeroContent, HeroContentItem } from '@/components/animations/HeroConten
 import { HeroMedia } from '@/components/animations/HeroMedia'
 import { Container } from '@/components/ui/Container'
 import { SERVICES_HERO } from '@/constants/servicesContent'
-import { IMAGES, VIDEOS } from '@/constants/content'
+import { VIDEOS } from '@/constants/content'
 
 export function ServicesHero() {
   return (
     <section className="relative min-h-[420px] overflow-hidden sm:min-h-[480px] lg:min-h-[520px]">
       <HeroMedia
         src={VIDEOS.hero}
-        poster={IMAGES.truck}
         kind="video"
+        preload="auto"
         alt="Semi-truck on highway at dusk"
         objectPosition="object-[70%_center]"
         overlayClassName="bg-gradient-to-r from-navy/95 via-navy/85 to-navy/50"

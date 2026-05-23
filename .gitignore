@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Uncompressed hero source — use npm run optimize:hero-video → public/videos/
+public/assets/video/background_video1.mp4
