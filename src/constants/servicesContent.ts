@@ -1,4 +1,3 @@
-import { galleryImage } from '@/constants/content'
 import type { ServiceDetail } from '@/types'
 
 export const SERVICES_HERO = {
@@ -25,7 +24,7 @@ export const SERVICE_DETAILS: ServiceDetail[] = [
     description:
       'Connect with reliable carriers and competitive rates through our expert freight brokerage network across North America.',
     icon: 'brokerage',
-    image: galleryImage('pexels-droneafrica-36771191.jpg'),
+    image: '/img/3Pl-Freight-Brokers-Services-for-Better-Customer-Satisfaction.png',
     overview:
       'Our 3PL freight brokerage team connects shippers with vetted carriers across USA & Canada. We manage rate negotiations, load booking, documentation, and carrier compliance so you can focus on growing your business.',
     features: [
@@ -47,7 +46,7 @@ export const SERVICE_DETAILS: ServiceDetail[] = [
     description:
       'Professional dispatch support to keep your fleet moving efficiently with optimized routes and load management.',
     icon: 'dispatch',
-    image: galleryImage('pexels-kayco-27027176.jpg'),
+    image: '/img/Load-Board-for-Straight-Trucks-Overview.avif',
     overview:
       'Our dispatch professionals manage load assignments, driver communication, route planning, and real-time updates. We act as an extension of your operations team — available when your fleet needs support.',
     features: [
@@ -69,7 +68,7 @@ export const SERVICE_DETAILS: ServiceDetail[] = [
     description:
       'Over-the-road logistics solutions ensuring timely deliveries and seamless operations for long-haul trucking.',
     icon: 'otr',
-    image: galleryImage('pexels-ronivon-prado-34161480-12944719.jpg'),
+    image: '/img/mining_hero.png',
     overview:
       'We support over-the-road operations with dedicated load planning, tracking, and coordination for long-haul freight. Our team ensures your OTR loads move smoothly from pickup to final delivery.',
     features: [
@@ -91,7 +90,7 @@ export const SERVICE_DETAILS: ServiceDetail[] = [
     description:
       'Port and intermodal drayage services connecting your cargo from ports to warehouses with precision and care.',
     icon: 'drayage',
-    image: galleryImage('pexels-tiger-lily-4487445.jpg'),
+    image: '/img/drayege_services.png',
     overview:
       'Our drayage support covers port pickups, intermodal transfers, and warehouse deliveries. We coordinate appointments, container tracking, and last-mile logistics for time-sensitive freight.',
     features: [
@@ -113,7 +112,7 @@ export const SERVICE_DETAILS: ServiceDetail[] = [
     description:
       'After-hours dispatch coverage so your operations never stop — dedicated night shift support for your fleet.',
     icon: 'night',
-    image: galleryImage('pexels-eduardo199o9-178988127-17824889.jpg'),
+    image: '/img/nighttimedispatch.webp',
     overview:
       'When your daytime team clocks out, our night dispatch crew keeps loads moving. We provide after-hours coverage for load updates, driver support, and urgent operational decisions across USA & Canada time zones.',
     features: [
@@ -135,7 +134,7 @@ export const SERVICE_DETAILS: ServiceDetail[] = [
     description:
       '24/7 Customer Support / BPO Services team ready to assist with inquiries, tracking updates, and operational coordination.',
     icon: 'support',
-    image: galleryImage('pexels-matreding-11666903.jpg'),
+    image: '/img/customer_support_bpo.webp',
     overview:
       'Our Customer Support / BPO Services specialists handle client inquiries, shipment updates, POD requests, and billing coordination. We represent your brand professionally with quick, accurate responses around the clock.',
     features: [
