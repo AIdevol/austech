@@ -25,15 +25,19 @@ function buildMailtoBody(intro: string) {
   ].join('\n')
 }
 
+function encodeMailtoParam(value: string) {
+  return encodeURIComponent(value).replace(/\+/g, '%20')
+}
+
 export function getInTouchMailto(options: GetInTouchMailtoOptions = {}) {
   const subject = options.subject ?? 'Get in Touch — Austech Business Solutions'
   const intro = options.intro ?? 'Hello Austech team,'
-  const params = new URLSearchParams({
-    subject,
-    body: buildMailtoBody(intro),
-  })
+  const params = [
+    `subject=${encodeMailtoParam(subject)}`,
+    `body=${encodeMailtoParam(buildMailtoBody(intro))}`,
+  ].join('&')
 
-  return `mailto:${SITE.email}?${params.toString()}`
+  return `mailto:${SITE.email}?${params}`
 }
 
 /** Default mailto link for “Get in touch” buttons across the site. */
